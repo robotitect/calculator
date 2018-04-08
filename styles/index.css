@@ -1,0 +1,90 @@
+body
+{
+  font-family: Dejavu Sans;
+}
+
+.calc
+{
+  height: 100%;
+  width: 100%;
+  /* border-style: solid;
+  border-width: 3px;
+  border-color: black; */
+  display: grid;
+  background-color: white;
+
+  margin-left: auto;
+  margin-right: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%)
+}
+
+span
+{
+  display: inline-block;
+  /* margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto; */
+  height: 100%;
+  width: 100%;
+}
+
+span.display
+{
+  /* position: relative; */
+  float: right;
+  /* background-color: #68ee0c; */
+  background-color: black;
+  color: white;
+
+  height: 150pt;
+  border: 50px;
+  border-color: white;
+
+  /* font-family: monospace; */
+  font-size: 150pt;
+  text-align: right;
+
+  /* vertical-align: middle; */
+
+  /* display: flex;
+  align-items: flex-end; */
+}
+
+button
+{
+  color: black;
+  background-color: white;
+  /* border: 100; */
+  border: 0;
+  border-color: white;
+  border-radius: 20px;
+  margin: 0px;
+  padding: 0px;
+  font-size: 60pt;
+  position: relative;
+  /* display: block; */
+  /* bottom: 10%; */
+  /* margin-left: auto; */
+  /* margin-right: auto; */
+  height: 100%;
+  width: 20%;
+}
+
+button:hover
+{
+  /* background-color: cyan; */
+  background-color: black;
+  color: white;
+}
+
+/* .cell
+{
+  border-style: solid;
+  border-width: 1px 1px 1px 1px;
+  border-color: black;
+  color: white;
+} */
